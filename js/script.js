@@ -55,6 +55,15 @@ function generateNewGame(containerElement, selectElement) {
     }
 }
 
+function generateNewBombs(numberOfBombs, numberOfCells) {
+    const bombs = [];
+    while (bombs.length < numberOfBombs) {
+        const bomb = getRandomInt(1, numberOfCells);
+    }
+    return bombs;
+}
+
+
 function getRandomInt(min,max) {
     return Math.floor(Math.random()*((max + 1) - min)) + min
 }
