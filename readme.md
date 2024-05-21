@@ -6,3 +6,6 @@ In seguito l'utente clicca su una cella: se il numero è presente nella lista de
 Altrimenti la cella cliccata si colora di azzurro e l'utente può continuare a cliccare sulle altre celle.
 La partita termina quando il giocatore clicca su una bomba o quando raggiunge il numero massimo possibile di numeri consentiti (ovvero quando ha rivelato tutte le celle che non sono bombe).
 Al termine della partita il software deve comunicare il punteggio, cioè il numero di volte che l’utente ha cliccato su una cella che non era una bomba.
+
+Creiamo una funzione con all'interno di un ciclo while per generare 16 numeri casuali che rappresenteranno le bombe.
+Se l'utente clicca su una bomba, è game over quindi potrei usare un if.
